@@ -160,13 +160,11 @@ This is used to generate extensions for `treemacs' from `all-the-icons-icon-alis
          :icon (format " %s\t" (all-the-icons-octicon "repo" :height 1.2 :v-adjust -0.1 :face 'doom-themes-treemacs-root-face))
          :extensions (root))
         (treemacs-create-icon
-         :icon (format "%s\t%s\t"
-                       (all-the-icons-octicon "chevron-down" :height 0.75 :v-adjust 0.1 :face face-spec)
+         :icon (format "%s\t"
                        (all-the-icons-octicon "file-directory" :v-adjust 0 :face face-spec))
          :extensions (dir-open))
         (treemacs-create-icon
-         :icon (format "%s\t%s\t"
-                       (all-the-icons-octicon "chevron-right" :height 0.75 :v-adjust 0.1 :face face-spec)
+         :icon (format "%s\t"
                        (all-the-icons-octicon "file-directory" :v-adjust 0 :face face-spec))
          :extensions (dir-closed))
         (treemacs-create-icon
